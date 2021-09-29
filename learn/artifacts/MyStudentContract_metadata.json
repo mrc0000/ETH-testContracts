@@ -9,6 +9,20 @@
 				"constant": false,
 				"inputs": [
 					{
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "remove",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
 						"name": "NewUserName",
 						"type": "string"
 					},
@@ -37,6 +51,20 @@
 				"outputs": [],
 				"payable": false,
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "totalStudents",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -152,9 +180,9 @@
 	},
 	"sources": {
 		"learn/mrchapma_week4assignment.sol": {
-			"keccak256": "0x92bd2a7a2df78d57678b94ea4b9d04e9139f3d1c20a8d69edbfa705bb37717d3",
+			"keccak256": "0xc56611d9926ecec3b1eada8cf21aac74709de28b696659d5e87b64546c83f637",
 			"urls": [
-				"bzzr://34ecdb7024a6227b3ce75b0e321096da4615795215c84918b09cd24a6769d205"
+				"bzzr://34911aeb826d9a51d50b005ec30ab68341dff2b62283f7d47488de4adf335fb6"
 			]
 		}
 	},
