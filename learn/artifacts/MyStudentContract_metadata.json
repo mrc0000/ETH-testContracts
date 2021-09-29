@@ -1,0 +1,114 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "NewUserName",
+						"type": "string"
+					},
+					{
+						"name": "NewEmail",
+						"type": "string"
+					}
+				],
+				"name": "addStudents",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "myNewStudent",
+				"outputs": [
+					{
+						"name": "UserName",
+						"type": "string"
+					},
+					{
+						"name": "Email",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "allStudents",
+				"outputs": [
+					{
+						"name": "UserName",
+						"type": "string"
+					},
+					{
+						"name": "Email",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"name": "studentName",
+						"type": "string"
+					}
+				],
+				"name": "AddedStudents",
+				"type": "event"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"learn/mrchapma_week4assignment.sol": "MyStudentContract"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"learn/mrchapma_week4assignment.sol": {
+			"keccak256": "0xd2f22f6ddbfea5f75ca78d7ac4c4772472de1736b2dd18edb4e7872e4aa4c695",
+			"urls": [
+				"bzzr://96a1c79928b5ecc2a0c6434a84703a401b075109864766538e9f0527da9f0dc5"
+			]
+		}
+	},
+	"version": 1
+}

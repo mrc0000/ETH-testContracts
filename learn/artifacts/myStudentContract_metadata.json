@@ -1,0 +1,128 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "username",
+						"type": "string"
+					},
+					{
+						"name": "email",
+						"type": "string"
+					}
+				],
+				"name": "addStudents",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "myNewStudent",
+				"outputs": [
+					{
+						"name": "username",
+						"type": "string"
+					},
+					{
+						"name": "metamaskAddress",
+						"type": "address"
+					},
+					{
+						"name": "age",
+						"type": "int256"
+					},
+					{
+						"name": "email",
+						"type": "string"
+					},
+					{
+						"name": "theLevel",
+						"type": "uint8"
+					},
+					{
+						"name": "blockchainTrackEnrolled",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "allTheStudents",
+				"outputs": [
+					{
+						"name": "username",
+						"type": "string"
+					},
+					{
+						"name": "metamaskAddress",
+						"type": "address"
+					},
+					{
+						"name": "age",
+						"type": "int256"
+					},
+					{
+						"name": "email",
+						"type": "string"
+					},
+					{
+						"name": "theLevel",
+						"type": "uint8"
+					},
+					{
+						"name": "blockchainTrackEnrolled",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"learn/mrchapma_week4assignment.sol": "myStudentContract"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"learn/mrchapma_week4assignment.sol": {
+			"keccak256": "0x75426c5d2ba577bde60e959781739a18bc6a2431f5581a77d2a94ef66abd53b0",
+			"urls": [
+				"bzzr://f5aab08c80f4516685fe23e6231e36ba4f172d3ed27429bd00254ae05f3e5241"
+			]
+		}
+	},
+	"version": 1
+}
