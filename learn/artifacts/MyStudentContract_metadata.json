@@ -13,8 +13,24 @@
 						"type": "string"
 					},
 					{
+						"name": "NewMetaMaskAddress",
+						"type": "address"
+					},
+					{
+						"name": "NewAge",
+						"type": "int256"
+					},
+					{
 						"name": "NewEmail",
 						"type": "string"
+					},
+					{
+						"name": "NewProgramLevel",
+						"type": "uint8"
+					},
+					{
+						"name": "NewBlockchainTrackEnrolled",
+						"type": "bool"
 					}
 				],
 				"name": "addStudents",
@@ -33,8 +49,24 @@
 						"type": "string"
 					},
 					{
+						"name": "MetaMaskAddress",
+						"type": "address"
+					},
+					{
+						"name": "Age",
+						"type": "int256"
+					},
+					{
 						"name": "Email",
 						"type": "string"
+					},
+					{
+						"name": "theLevel",
+						"type": "uint8"
+					},
+					{
+						"name": "BlockchainTrackEnrolled",
+						"type": "bool"
 					}
 				],
 				"payable": false,
@@ -56,8 +88,24 @@
 						"type": "string"
 					},
 					{
+						"name": "MetaMaskAddress",
+						"type": "address"
+					},
+					{
+						"name": "Age",
+						"type": "int256"
+					},
+					{
 						"name": "Email",
 						"type": "string"
+					},
+					{
+						"name": "theLevel",
+						"type": "uint8"
+					},
+					{
+						"name": "BlockchainTrackEnrolled",
+						"type": "bool"
 					}
 				],
 				"payable": false,
@@ -104,9 +152,9 @@
 	},
 	"sources": {
 		"learn/mrchapma_week4assignment.sol": {
-			"keccak256": "0xd2f22f6ddbfea5f75ca78d7ac4c4772472de1736b2dd18edb4e7872e4aa4c695",
+			"keccak256": "0x92bd2a7a2df78d57678b94ea4b9d04e9139f3d1c20a8d69edbfa705bb37717d3",
 			"urls": [
-				"bzzr://96a1c79928b5ecc2a0c6434a84703a401b075109864766538e9f0527da9f0dc5"
+				"bzzr://34ecdb7024a6227b3ce75b0e321096da4615795215c84918b09cd24a6769d205"
 			]
 		}
 	},
